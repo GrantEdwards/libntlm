@@ -1,3 +1,5 @@
+## INTRODUCTION
+
 
 This directory contains sources for a library which provides
 routines to manipulate the structures used for the client end
@@ -8,13 +10,15 @@ initially intended for use with Microsoft Exchange Server when
 it is configured to require NTLM authentication for clients of
 its IMAP server.
 
-BUILDING
+## BUILDING
 
 If you want the library installed in /usr/local/lib and
 the header in /usr/local/include, then
 
+```
  $ make
  $ make install
+```
 
 will probably work.  Not much effort has been put into making
 this portable, and I only know for sure that it works on i386
@@ -22,14 +26,14 @@ Linux glibc systems -- though there shouldn't be anything all
 that system-specific anywhere.  System byte order differences
 should already be taken care of.
 
-TEST PROGRAM
+## TEST PROGRAM
 
 The test directory contains sources for a program named
 "dumper" that will dump out base64 NTLM auth messages in a
 readable format.  It will also take a challenge and generate a
 response if provided with a username and password.
 
-USAGE  
+## USAGE  
   
 The application program must convert these structures to/from
 base64 which is used to transfer data for IMAP authentication.
