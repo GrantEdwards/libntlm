@@ -40,6 +40,7 @@ In general the usage is something like shown below (no, I don't
 know if this code even compiles, but you get the idea
 hopefully):
 
+```
 
 #include <ntlm.h>
 
@@ -96,3 +97,5 @@ int imap_auth_ntlm(char *user, char *domain, char *pass)
   
   return 0;
 }
+
+```
