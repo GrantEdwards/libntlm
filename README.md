@@ -1,12 +1,10 @@
 ## ***NOTE***
 
-**
-This library has not been maintined for a long time.
+**This library has not been maintined for a long time.**
 
-You should probably be using http://www.nongnu.org/libntlm/ instead.
-It was originally based on this code, but has been largely
-re-written over the past decade or so.
-**
+** You should probably be using http://www.nongnu.org/libntlm/
+instead.  It was originally based on this code, but has been largely
+re-written over the past decade or so. **
 
 ## INTRODUCTION
 
